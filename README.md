@@ -34,4 +34,6 @@ TFT_eSPI config:
 ![Connection Diagram](Images/Connection%20Diagram.png)
 
 ## Assembled
-![Connection Diagram](Images/Assembled.jpg)
+![Connection Diagram](Images/Assembled_01.jpg)
+![Connection Diagram](Images/Assembled_02.jpg)
+![Connection Diagram](Images/Assembled_03.jpg)
