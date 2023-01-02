@@ -15,16 +15,23 @@ It determines speed and direction using GPS module.
 [TFT_eSPI by Bodmer](https://github.com/Bodmer/TFT_eSPI) must be installed.
 TFT_eSPI config:
 1. In User_Setup_Select.h file, select:
-  #include <User_Setups/Setup24_ST7789.h>
+```
+#include <User_Setups/Setup24_ST7789.h>
+```
 2. In User_Setups/Setup24_ST7789.h file, must be:
-  #define TFT_CS   -1      // Define as not used
-  #define TFT_DC   PIN_D2  // Data Command control pin
-  #define TFT_RST  PIN_D4  // TFT reset pin (could connect to NodeMCU RST, see next line)
+```
+#define TFT_CS   -1      // Define as not used
+#define TFT_DC   PIN_D2  // Data Command control pin
+#define TFT_RST  PIN_D4  // TFT reset pin (could connect to NodeMCU RST, see next line)
+```  
 
 [TinyGPS](https://github.com/mikalhart/TinyGPS) must be installed.
-Tested with TinyGPS 13.
+* Tested with TinyGPS 13.
 
 [EspSoftwareSerial](https://github.com/plerup/espsoftwareserial) must be installed.
 
 ## Connection Diagram
 ![Connection Diagram](Images/Connection%20Diagram.png)
+
+## Assembled
+![Connection Diagram](Images/Assembled.jpg)
